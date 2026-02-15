@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>For My Love ❤️</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <audio id="bgMusic" loop>
+        <source src="https://files.catbox.moe/0q8sfl.mp3" type="audio/mpeg">
+    </audio>
+
+    <div id="page1" class="container">
+        <div class="card">
+            <video id="videoDisplay" class="main-img" autoplay loop muted playsinline>
+                <source id="videoSource" src="https://files.catbox.moe/dy7nvu.mp4" type="video/mp4">
+            </video>
+            
+            <h1 id="questionText">အကိုနဲ့ ဘဝလက်တွဲဖော် ဖြစ်နိုင်မလား? 🥺</h1>
+            <div class="button-group">
+                <button id="yesBtn" onclick="ansYes()">Yes</button>
+                <button id="noBtn" onclick="ansNo()">No</button>
+            </div>
+        </div>
+    </div>
+
+    <div id="page2" class="container" style="display:none;">
+        <div class="card result-card">
+            <h1>Happy Valentine's Day, My Love! ❤️</h1>
+            
+            <p class="eng-text">
+                To my dearest <strong>တိုတိုရဲ့အသဲတုံးလေး😘</strong>,<br><br>
+                Thank you for being the most precious gift in my life. 
+                Words can't express how much I love you and how happy you make me every single day. 
+                I promise to hold your hand, cherish every moment we share, and love you forever. 
+                You are my heart, my soul, and my everything. ❤️🌹
+            </p>
+            
+            <div class="gallery">
+                <video class="gallery-item" controls playsinline>
+                    <source src="https://files.catbox.moe/gq0e99.mov" type="video/quicktime">
+                    <source src="https://files.catbox.moe/gq0e99.mov" type="video/mp4">
+                </video>
+                <video class="gallery-item" controls playsinline>
+                    <source src="https://files.catbox.moe/2foasf.mp4" type="video/mp4">
+                </video>
+                <img src="https://i.postimg.cc/sDfXYkB2/Picsart-26-02-10-20-27-31-738.jpg" class="gallery-img">
+                <img src="https://i.postimg.cc/pVsxHpTQ/Picsart-26-02-08-20-24-45-065.jpg" class="gallery-img">
+            </div>
+            
+            <h2 class="signature">With endless love, <br> အကို</h2>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.5.1/dist/confetti.browser.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
